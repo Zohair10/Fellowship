@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zohair Sarosh Shamsi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb4e74d6cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Student at FAST NU</p>
+                <h1>Hi, I'm <span class="span1">Zohair Sarosh</span><br>From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/comp.jpg" alt="sohaib-ad-22">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I am a successful web developer with a proven track record of crafting dynamic and user-friendly websites. With a passion for coding and a creative mindset, I specialize in turning complex concepts into elegant digital solutions. With a strong grasp of modern programming languages and frameworks, I have consistently delivered high-quality websites that seamlessly blend functionality with aesthetics. My ability to collaborate with clients, understand their unique needs, and translate them into captivating online experiences has been a key factor in my success. I am committed to staying at the forefront of web development trends, ensuring that my work remains innovative and impactful</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Teacher Assistant</span><br>Roots Millennium College</li>
+                            <li><span>Siemens</span><br>Internship</li>
+                            <li><span>Alt Academy</span><br>Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelors in Computer Science</span><br>Fast National University</li>
+                            <li><span>Alevels</span><br>Roots Millennium College</li>
+                            <li><span>Olevels</span><br>Beaconhouse School System</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- ---------------------contact--------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa fa-paper-plane"></i>zohairsarosh@gmail.com</p>
+                        <p><i class="fa fa-phone"></i>03332984993</p>
+                        <div class="social-icons">
+                            <a href=""><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                            <a href=""><i
+                                    class="fa-brands fa-instagram"></i></i></a>
+                            <a href=""><i
+                                    class="fa-brands fa-linkedin"></i></i></a>
+                        </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            <p>Copyright @Zohair Sarosh with <i class="fas fa-heart"> </i></p>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
